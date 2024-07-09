@@ -1,0 +1,6 @@
+let rolloDePapel = 10 // Esto imprime 10
+let rolloDePapel = null	// Esto imprime null: es un tipo de dato que dice que no tiene valor
+let rolloDePapel = 'Caca' // Esto imprime un texto "Caca"
+let rolloDePapel || let rolloDePapel = undefined // no es defininido el valor
+
+
