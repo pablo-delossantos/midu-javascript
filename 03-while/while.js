@@ -1,9 +1,15 @@
-let cuentaAtras = 10
+function verificarClave() {
+    const correctPasword = "Marcialhdp"
+    const claveIngresada = document.getElementById('password').value;
 
-while (cuentaAtras > 0) {
-    console.log(cuentaAtras)
-    cuentaAtras = cuentaAtras - 1
+
+    while(claveIngresada != correctPasword) {
+        alert("Contraseña incorrecta. Intente nuevamente");
+        document.getElementById("password").value = ""; //limpia la entrada
+
+        return;
+    }
+
+    alert("Contraseña correcta. Paga las expensas");
+
 }
-
-console.log("Despegue! 🚀")
-
